@@ -1,16 +1,40 @@
-\BOOKMARK [-1][]{ctitle.-1}{北京邮电大学研究生学位论文LaTeX2ε模板使用示例文档}{}% 1
+\BOOKMARK [-1][]{ctitle.-1}{自适应主题模型及其在推荐系统中的应用}{}% 1
 \BOOKMARK [0][]{bupt@label@cabstract.0}{摘 要}{ctitle.-1}% 2
 \BOOKMARK [0][]{bupt@label@eabstract.0}{ABSTRACT}{ctitle.-1}% 3
 \BOOKMARK [0][]{contentsname.0}{目 录}{ctitle.-1}% 4
 \BOOKMARK [0][]{bupt@label@listofnotations.0}{符号对照表}{ctitle.-1}% 5
 \BOOKMARK [0][]{chapter.1}{绪论}{ctitle.-1}% 6
-\BOOKMARK [1][]{section.1.1}{中文信息处理软件的国内外发展现状}{chapter.1}% 7
-\BOOKMARK [1][]{section.1.2}{本说明的主要内容}{chapter.1}% 8
-\BOOKMARK [1][]{section*.11}{参考文献}{chapter.1}% 9
-\BOOKMARK [0][]{chapter.2}{功能测试}{ctitle.-1}% 10
-\BOOKMARK [1][]{section.2.1}{三国演义}{chapter.2}% 11
-\BOOKMARK [2][]{subsection.2.1.1}{长坂坡}{section.2.1}% 12
-\BOOKMARK [1][]{section*.13}{参考文献}{chapter.2}% 13
-\BOOKMARK [0][]{appendix.A}{不定型（0/0）极限的计算}{ctitle.-1}% 14
-\BOOKMARK [0][]{section*.15}{致 谢}{ctitle.-1}% 15
-\BOOKMARK [0][]{section*.17}{攻读学位期间发表的学术论文目录}{ctitle.-1}% 16
+\BOOKMARK [1][]{section.1.1}{研究背景及选题意义}{chapter.1}% 7
+\BOOKMARK [2][]{subsection.1.1.1}{研究背景及国内外研究现状}{section.1.1}% 8
+\BOOKMARK [2][]{subsection.1.1.2}{课题主要来源}{section.1.1}% 9
+\BOOKMARK [1][]{section.1.2}{主要研究内容}{chapter.1}% 10
+\BOOKMARK [1][]{section.1.3}{论文的结构安排}{chapter.1}% 11
+\BOOKMARK [0][]{chapter.2}{主题建模介绍}{ctitle.-1}% 12
+\BOOKMARK [1][]{section.2.1}{主题模型技术发展概况}{chapter.2}% 13
+\BOOKMARK [2][]{subsection.2.1.1}{PLSI和LDA的介绍}{section.2.1}% 14
+\BOOKMARK [2][]{subsection.2.1.2}{PLSI和LDA存在的问题}{section.2.1}% 15
+\BOOKMARK [1][]{section.2.2}{本章小结}{chapter.2}% 16
+\BOOKMARK [0][]{chapter.3}{分层语义映射的自适应主题生成模型HLSM}{ctitle.-1}% 17
+\BOOKMARK [1][]{subsection.3.0.1}{复杂网络中社区发现和主题模型的联系}{chapter.3}% 18
+\BOOKMARK [2][]{subsection.3.0.2}{分层语义映射HLSM模型介绍}{subsection.3.0.1}% 19
+\BOOKMARK [2][]{subsection.3.0.3}{评估HLSM性能的实验}{subsection.3.0.1}% 20
+\BOOKMARK [2][]{subsection.3.0.4}{文档建模}{subsection.3.0.1}% 21
+\BOOKMARK [2][]{subsection.3.0.5}{文档分类实验}{subsection.3.0.1}% 22
+\BOOKMARK [2][]{subsection.3.0.6}{主题模型总结}{subsection.3.0.1}% 23
+\BOOKMARK [1][]{section.3.1}{本章小结}{chapter.3}% 24
+\BOOKMARK [0][]{chapter.4}{词嵌入（word embedding）算法和推荐系统的研究背景}{ctitle.-1}% 25
+\BOOKMARK [1][]{section.4.1}{推荐系统简介}{chapter.4}% 26
+\BOOKMARK [1][]{section.4.2}{词嵌入（word embedding）学习算法介绍}{chapter.4}% 27
+\BOOKMARK [1][]{section.4.3}{本章小结}{chapter.4}% 28
+\BOOKMARK [0][]{chapter.5}{主题模型和词嵌入（word embedding）与推荐系统的创新结合}{ctitle.-1}% 29
+\BOOKMARK [1][]{section.5.1}{主题模型和词嵌入（word embedding）在推荐系统中应用讨论}{chapter.5}% 30
+\BOOKMARK [2][]{subsection.5.1.1}{多场景的冷启动问题}{section.5.1}% 31
+\BOOKMARK [2][]{subsection.5.1.2}{长尾数据问题}{section.5.1}% 32
+\BOOKMARK [2][]{subsection.5.1.3}{稀疏数据的计算存储规模问题}{section.5.1}% 33
+\BOOKMARK [1][]{section.5.2}{主题模型在推荐系统中的结合}{chapter.5}% 34
+\BOOKMARK [1][]{section.5.3}{类word2vec词嵌入方法在推荐系统中的结合}{chapter.5}% 35
+\BOOKMARK [2][]{subsection.5.3.1}{基于用户行为序列的word2vec}{section.5.3}% 36
+\BOOKMARK [1][]{section*.30}{参考文献}{chapter.5}% 37
+\BOOKMARK [0][]{appendix.A}{不定型（0/0）极限的计算}{ctitle.-1}% 38
+\BOOKMARK [0][]{section*.32}{致 谢}{ctitle.-1}% 39
+\BOOKMARK [0][]{section*.34}{攻读学位期间发表的学术论文目录}{ctitle.-1}% 40

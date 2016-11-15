@@ -1,50 +1,158 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\citation{BUPT_Thesis_Format_2014}
-\citation{BUPT_Thesis_Format_2004}
-\citation{SANGUOYANYI}
-\citation{CHANGBANPO}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第\CJKnumber  {2}章}功能测试}{5}{chapter.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}三国演义}{5}{section.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}长坂坡}{5}{subsection.2.1.1}}
-\citation{CITATION_BOOK,CITATION_ARTICLE,CITATION_PROCEEDINGS,CITATION_INPROCEEDINGS,CITATION_TECHREPORT,CITATION_STANDARD,CITATION_PATENT,CITATION_NEWSPAPER,CITATION_ELECTRONIC}
+\citation{Barathi}
+\citation{TopicClust}
+\citation{PLSI}
+\citation{LDA}
+\citation{PLSI}
+\citation{LDA}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第\CJKnumber  {2}章}主题建模介绍}{7}{chapter.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}主题模型技术发展概况}{7}{section.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}PLSI和LDA的介绍}{7}{subsection.2.1.1}}
+\citation{PLSI}
+\citation{LDA}
+\@writefile{lof}{\contentsline {figure}{\numberline {2-1}{\ignorespaces 文档中的文档的生成模型假定是主题的组合体。主题结构是潜在的，意味着人们不能访问用于在语料库中生成文档的“真实”主题集合。然而，可以使用主题模型算法来估计主题集合的分布。为此，在该示例中，计算每个文档中的词频率并将它们建模为不同主题，数学和机器学习的组合体。\relax }}{8}{figure.caption.12}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:TopicModelDoc}{{2-1}{8}{文档中的文档的生成模型假定是主题的组合体。主题结构是潜在的，意味着人们不能访问用于在语料库中生成文档的“真实”主题集合。然而，可以使用主题模型算法来估计主题集合的分布。为此，在该示例中，计算每个文档中的词频率并将它们建模为不同主题，数学和机器学习的组合体。\relax }{figure.caption.12}{}}
+\citation{ComplexityOfLDA}
+\citation{ProbabilisticTopicModels}
+\citation{RethinkingLDA}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}PLSI和LDA存在的问题}{9}{subsection.2.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2.1}先验的敏感性}{9}{subsubsection.2.1.2.1}}
+\citation{RethinkingLDA}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2.2}主题数目$K$的选择问题}{10}{subsubsection.2.1.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}本章小结}{10}{section.2.2}}
+\citation{MAPEQUATION}
+\citation{complex1,complex2,complex3}
+\citation{HME}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第\CJKnumber  {3}章}分层语义映射的自适应主题生成模型HLSM}{11}{chapter.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.1}复杂网络中社区发现和主题模型的联系}{11}{subsection.3.0.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.2}分层语义映射HLSM模型介绍}{11}{subsection.3.0.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-1}{\ignorespaces Illustration of the HLSM algorithm.\relax }}{12}{figure.caption.14}}
+\newlabel{fig:hlsm}{{3-1}{12}{Illustration of the HLSM algorithm.\relax }{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.0.2.1}构建单词连接网络}{13}{subsubsection.3.0.2.1}}
+\citation{HME}
+\citation{HME}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.0.2.2}分层地对单词进行社区归属}{14}{subsubsection.3.0.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-2}{\ignorespaces 通过最小化映射方程来找到对应于网络中最优分区结构的例子。\relax }}{15}{figure.caption.15}}
+\newlabel{fig:mapequation}{{3-2}{15}{通过最小化映射方程来找到对应于网络中最优分区结构的例子。\relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.0.2.3}优化初始的概率估计}{16}{subsubsection.3.0.2.3}}
+\citation{LDA}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.3}评估HLSM性能的实验}{18}{subsection.3.0.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.4}文档建模}{18}{subsection.3.0.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-3}{\ignorespaces Perplexity comparisons on the 20Newsgroups dataset.\relax }}{19}{figure.caption.16}}
+\newlabel{fig:perplexity}{{3-3}{19}{Perplexity comparisons on the 20Newsgroups dataset.\relax }{figure.caption.16}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3-1}{\ignorespaces Comp and Sci数据集上HLSM生成的Top12个主题的单词分布\relax }}{20}{table.caption.17}}
+\newlabel{table:topics}{{3-1}{20}{Comp and Sci数据集上HLSM生成的Top12个主题的单词分布\relax }{table.caption.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.5}文档分类实验}{20}{subsection.3.0.5}}
+\@writefile{lot}{\contentsline {table}{\numberline {3-2}{\ignorespaces 从20Newsgroups抽取出的数据集\relax }}{21}{table.caption.18}}
+\newlabel{table:dataset}{{3-2}{21}{从20Newsgroups抽取出的数据集\relax }{table.caption.18}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3-3}{\ignorespaces 20Newsgroups抽取的测试集上各个主题模型对应的分类器测试效果\relax }}{22}{table.caption.19}}
+\newlabel{table:classification}{{3-3}{22}{20Newsgroups抽取的测试集上各个主题模型对应的分类器测试效果\relax }{table.caption.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.6}主题模型总结}{23}{subsection.3.0.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}本章小结}{23}{section.3.1}}
+\citation{BengioDV00,CollobertW08,mikolov2013distributed}
+\citation{MFw2v,PCAw2v,EMFw2v}
+\citation{levy2014linguistic}
+\citation{BengioDV00}
+\citation{CollobertW08}
+\citation{mikolov2013distributed}
+\citation{PCAw2v}
+\citation{MFw2v}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第\CJKnumber  {4}章}词嵌入（word embedding）算法和推荐系统的研究背景}{25}{chapter.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}推荐系统简介}{25}{section.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}词嵌入（word embedding）学习算法介绍}{25}{section.4.2}}
+\citation{BengioDV00}
+\citation{CollobertW08}
+\citation{word2vec}
+\citation{mikolov2013distributed}
+\citation{word2vec}
+\citation{word2vec}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.0.1}连续词袋（CBOW）模型}{26}{subsubsection.4.2.0.1}}
+\citation{word2vec}
+\citation{word2vec}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-1}{\ignorespaces 词袋模型\cite  {word2vec}\relax }}{27}{figure.caption.21}}
+\newlabel{fig:cbow}{{4-1}{27}{词袋模型\cite {word2vec}\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.0.2}skip-gram模型结构}{27}{subsubsection.4.2.0.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-2}{\ignorespaces skip-gram模型\cite  {word2vec}\relax }}{28}{figure.caption.22}}
+\newlabel{fig:skip}{{4-2}{28}{skip-gram模型\cite {word2vec}\relax }{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}本章小结}{29}{section.4.3}}
+\citation{Schafer2007}
+\citation{synonymy}
+\citation{shillingattacks}
+\citation{Longtail}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第\CJKnumber  {5}章}主题模型和词嵌入（word embedding）与推荐系统的创新结合}{31}{chapter.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}主题模型和词嵌入（word embedding）在推荐系统中应用讨论}{31}{section.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}多场景的冷启动问题}{31}{subsection.5.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}长尾数据问题}{32}{subsection.5.1.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5-1}{\ignorespaces 商品推荐中的长尾效应\relax }}{33}{figure.caption.24}}
+\newlabel{fig:LongTail}{{5-1}{33}{商品推荐中的长尾效应\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5-2}{\ignorespaces 推荐系统的样本分布\relax }}{34}{figure.caption.25}}
+\newlabel{fig:Sample}{{5-2}{34}{推荐系统的样本分布\relax }{figure.caption.25}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}稀疏数据的计算存储规模问题}{34}{subsection.5.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}主题模型在推荐系统中的结合}{34}{section.5.2}}
+\citation{PLDA}
+\citation{lightLDA}
+\@writefile{lof}{\contentsline {figure}{\numberline {5-3}{\ignorespaces User和Item关系学习的全连接神经网络\relax }}{38}{figure.caption.26}}
+\newlabel{fig:Dnn}{{5-3}{38}{User和Item关系学习的全连接神经网络\relax }{figure.caption.26}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}类word2vec词嵌入方法在推荐系统中的结合}{38}{section.5.3}}
 \citation{BSTcontrol}
 \bibstyle{buptgraduatethesis}
 \bibdata{bare_thesis}
-\bibcite{BUPT_Thesis_Format_2014}{{1}{}{{}}{{}}}
-\bibcite{BUPT_Thesis_Format_2004}{{2}{}{{}}{{}}}
-\bibcite{SANGUOYANYI}{{3}{}{{}}{{}}}
-\bibcite{CHANGBANPO}{{4}{}{{}}{{}}}
-\bibcite{CITATION_BOOK}{{5}{}{{}}{{}}}
-\bibcite{CITATION_ARTICLE}{{6}{}{{}}{{}}}
-\bibcite{CITATION_PROCEEDINGS}{{7}{}{{}}{{}}}
-\bibcite{CITATION_INPROCEEDINGS}{{8}{}{{}}{{}}}
-\bibcite{CITATION_TECHREPORT}{{9}{}{{}}{{}}}
-\bibcite{CITATION_STANDARD}{{10}{}{{}}{{}}}
-\bibcite{CITATION_PATENT}{{11}{}{{}}{{}}}
-\bibcite{CITATION_NEWSPAPER}{{12}{}{{}}{{}}}
-\@writefile{toc}{\contentsline {section}{参考文献}{6}{section*.13}}
-\bibcite{CITATION_ELECTRONIC}{{13}{}{{}}{{}}}
+\bibcite{Barathi}{{1}{}{{}}{{}}}
+\bibcite{TopicClust}{{2}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}基于用户行为序列的word2vec}{39}{subsection.5.3.1}}
+\@writefile{toc}{\contentsline {section}{参考文献}{39}{section*.30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5-4}{\ignorespaces 网络商城中用户的行为足迹1\relax }}{40}{figure.caption.27}}
+\newlabel{fig:zuji1}{{5-4}{40}{网络商城中用户的行为足迹1\relax }{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5-5}{\ignorespaces 网络商城中用户的行为足迹2\relax }}{40}{figure.caption.28}}
+\newlabel{fig:zuji2}{{5-5}{40}{网络商城中用户的行为足迹2\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5-6}{\ignorespaces 网络商城中用户的行为足迹2\relax }}{40}{figure.caption.29}}
+\newlabel{fig:TimeDelta}{{5-6}{40}{网络商城中用户的行为足迹2\relax }{figure.caption.29}{}}
+\bibcite{PLSI}{{3}{}{{}}{{}}}
+\bibcite{LDA}{{4}{}{{}}{{}}}
+\bibcite{ComplexityOfLDA}{{5}{}{{}}{{}}}
+\bibcite{ProbabilisticTopicModels}{{6}{}{{}}{{}}}
+\bibcite{RethinkingLDA}{{7}{}{{}}{{}}}
+\bibcite{MAPEQUATION}{{8}{}{{}}{{}}}
+\bibcite{complex1}{{9}{}{{}}{{}}}
+\bibcite{complex2}{{10}{}{{}}{{}}}
+\bibcite{complex3}{{11}{}{{}}{{}}}
+\bibcite{HME}{{12}{}{{}}{{}}}
+\bibcite{BengioDV00}{{13}{}{{}}{{}}}
+\bibcite{CollobertW08}{{14}{}{{}}{{}}}
+\bibcite{mikolov2013distributed}{{15}{}{{}}{{}}}
+\bibcite{MFw2v}{{16}{}{{}}{{}}}
+\bibcite{PCAw2v}{{17}{}{{}}{{}}}
+\bibcite{EMFw2v}{{18}{}{{}}{{}}}
+\bibcite{levy2014linguistic}{{19}{}{{}}{{}}}
+\bibcite{word2vec}{{20}{}{{}}{{}}}
+\bibcite{Schafer2007}{{21}{}{{}}{{}}}
+\bibcite{synonymy}{{22}{}{{}}{{}}}
+\bibcite{shillingattacks}{{23}{}{{}}{{}}}
+\bibcite{Longtail}{{24}{}{{}}{{}}}
+\bibcite{PLDA}{{25}{}{{}}{{}}}
+\bibcite{lightLDA}{{26}{}{{}}{{}}}
 \@setckpt{ch_concln}{
-\setcounter{page}{8}
-\setcounter{equation}{0}
-\setcounter{enumi}{2}
+\setcounter{page}{43}
+\setcounter{equation}{9}
+\setcounter{enumi}{6}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiv}{0}
-\setcounter{footnote}{2}
+\setcounter{footnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
-\setcounter{chapter}{2}
-\setcounter{section}{1}
+\setcounter{chapter}{5}
+\setcounter{section}{3}
 \setcounter{subsection}{1}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{0}
+\setcounter{figure}{6}
 \setcounter{table}{0}
 \setcounter{parentequation}{0}
-\setcounter{endNonectr}{18}
+\setcounter{endNonectr}{49}
 \setcounter{currNonectr}{0}
 \setcounter{ContinuedFloat}{0}
 \setcounter{subfigure}{0}
@@ -53,12 +161,12 @@
 \setcounter{lotdepth}{1}
 \setcounter{LT@tables}{0}
 \setcounter{LT@chunks}{0}
-\setcounter{NAT@ctr}{13}
+\setcounter{NAT@ctr}{26}
 \setcounter{su@anzahl}{0}
-\setcounter{Item}{2}
-\setcounter{Hfootnote}{2}
+\setcounter{Item}{17}
+\setcounter{Hfootnote}{0}
 \setcounter{Hy@AnnotLevel}{0}
-\setcounter{bookmark@seq@number}{13}
+\setcounter{bookmark@seq@number}{37}
 \setcounter{currassumptionctr}{0}
 \setcounter{endassumptionctr}{0}
 \setcounter{assumption}{0}

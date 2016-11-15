@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.7.6)  17 OCT 2016 12:20
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.7.6)  15 NOV 2016 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1942,13 +1942,11 @@ File: logo/buptname.pdf Graphic file (type QTm)
 .................................................
 File: logo/buptseal.pdf Graphic file (type QTm)
  <use  "logo/buptseal.pdf" >
-
-Package mathptmx Warning: There are no bold math fonts on input line 45.
-
 LaTeX Font Info:    Calculating math sizes for size <18.06749> on input line 45
 .
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 45
 .
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -2020,14 +2018,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.22707> not available
 
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <16.06> on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16.06> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.88448> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.6361> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2044,6 +2034,17 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 
 
 ]
+
+Package mathptmx Warning: There are no bold math fonts on input line 45.
+
+LaTeX Font Info:    Calculating math sizes for size <16.06> on input line 45.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16.06> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.88448> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.6361> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2057,7 +2058,18 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 ] [4
 
 
-] (./bare_thesis.toc)
+] (./bare_thesis.toc
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[5
+
+
+])
 \tf@toc=\write10
 \openout10 = `bare_thesis.toc'.
 
@@ -2069,13 +2081,7 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[5
-
-
-] [6
-
-
-])
+[6])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2086,6 +2092,8 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [7
 
 
+
+
 ] [8
 
 
@@ -2093,6 +2101,25 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 \openout2 = `ch_intro.aux'.
 
  (./ch_intro.tex
+
+Package natbib Warning: Citation `Barathi' on page 1 undefined on input line 18
+.
+
+
+Package natbib Warning: Citation `TopicClust' on page 1 undefined on input line
+ 18.
+
+
+Package natbib Warning: Citation `krestel2009latent' on page 1 undefined on inp
+ut line 18.
+
+
+Package natbib Warning: Citation `PLSI' on page 1 undefined on input line 20.
+
+
+Package natbib Warning: Citation `LDA' on page 1 undefined on input line 20.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2106,6 +2133,30 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 
 
 ]
+
+Package natbib Warning: Citation `word2vec' on page 2 undefined on input line 3
+2.
+
+
+Package natbib Warning: Citation `wordemb1' on page 2 undefined on input line 3
+2.
+
+
+Package natbib Warning: Citation `wordemb2' on page 2 undefined on input line 3
+2.
+
+
+Package natbib Warning: Citation `wordemb3' on page 2 undefined on input line 3
+2.
+
+
+Package natbib Warning: Citation `BRODER19971157' on page 2 undefined on input 
+line 32.
+
+
+Underfull \vbox (badness 1102) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2115,18 +2166,9 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 
 [2]
 
-Package natbib Warning: Citation `BSTcontrol' undefined on input line 74.
+Package natbib Warning: Citation `IR' on page 3 undefined on input line 36.
 
-(./ch_intro.bbl
-LaTeX Font Info:    Calculating math sizes for size <10.53937> on input line 7.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.53937> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.79918> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.32368> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2135,12 +2177,307 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
  []
 
 [3]
+
+Package natbib Warning: Citation `word2vec' on page 4 undefined on input line 5
+5.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[4])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[5]
 \openout2 = `ch_concln.aux'.
 
- (./ch_concln.tex [4
+ (./ch_concln.tex [6
 
 
 
+
+
+]
+File: ./graph/TopicModel.png Graphic file (type QTm)
+ <use  "./graph/TopicModel.png" >
+\g__fontspec_family_AdobeKaitiStd_int=\count274
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'AdobeKaitiStd(0)' created for font 'Adobe Kaiti Std' with
+. options
+. [Mapping=tex-text,Script={CJK},AutoFakeBold={3},AutoFakeSlant={0.167}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"Adobe Kaiti Std/OT:script=hani;language=DFLT;mapping=tex-text;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"Adobe Kaiti
+. Std/OT:script=hani;language=DFLT;mapping=tex-text;embolden=3;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'italic' with NFSS spec.:
+. <->"Adobe Kaiti
+. Std/OT:script=hani;language=DFLT;mapping=tex-text;slant=0.167;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"Adobe Kaiti
+. Std/OT:script=hani;language=DFLT;mapping=tex-text;embolden=3;slant=0.167;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[7]
+Underfull \vbox (badness 3058) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[10]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 50.
+
+File: ./graph/hlsmJPG.jpg Graphic file (type QTm)
+<use  "./graph/hlsmJPG.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[11
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[12]
+Underfull \vbox (badness 3635) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[13]
+Missing character: There is no （ in font zptmcm7t!
+Missing character: There is no ） in font zptmcm7t!
+Missing character: There is no （ in font zptmcm7t!
+Missing character: There is no ） in font zptmcm7t!
+Missing character: There is no （ in font zptmcm7t!
+Missing character: There is no ） in font zptmcm7t!
+Missing character: There is no （ in font zptmcm7t!
+File: ./graph/mapequationJPG.jpg Graphic file (type QTm)
+ <use  "./graph/mapequationJPG.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[14]
+Missing character: There is no （ in font zptmcm7t!
+Missing character: There is no ） in font zptmcm7t!
+Missing character: There is no ， in font zptmcm7t!
+Missing character: There is no ， in font zptmcm7t!
+Missing character: There is no ， in font zptmcm7t!
+Missing character: There is no ， in font zptmcm7t!
+Missing character: There is no （ in font zptmcm7t!
+Missing character: There is no ） in font zptmcm7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Underfull \vbox (badness 4518) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+Missing character: There is no （ in font zptmcm7t!
+Missing character: There is no ） in font zptmcm7t!
+Missing character: There is no （ in font zptmcm7t!
+Missing character: There is no ） in font zptmcm7t!
+Missing character: There is no （ in font zptmcm7t!
+Missing character: There is no ） in font zptmcm7t!
+Missing character: There is no ， in font zptmcm7t!
+Missing character: There is no ， in font zptmcm7t!
+Missing character: There is no ， in font zptmcm7t!
+Missing character: There is no （ in font zptmcm7t!
+Missing character: There is no ， in font zptmcm7t!
+Missing character: There is no ） in font zptmcm7t!
+Missing character: There is no （ in font zptmcm7t!
+Missing character: There is no ） in font zptmcm7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[17]
+File: ./graph/perplexitycolor.png Graphic file (type QTm)
+ <use  "./graph/perplexitycolor.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[19]
+LaTeX Font Info:    Calculating math sizes for size <10.53937> on input line 21
+7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.53937> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 217.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.79918> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 217.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.32368> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 217.
+
+Overfull \hbox (31.10297pt too wide) in paragraph at lines 217--240
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[23] [24
 
 
 ]
@@ -2151,9 +2488,166 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[5]
+[25]
+File: ./graph/cbow.png Graphic file (type QTm)
+ <use  "./graph/cbow.png" >
 
-Package natbib Warning: Citation `BSTcontrol' undefined on input line 50.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (33.9418pt too wide) in paragraph at lines 353--354
+[]\EU1/AdobeSongStd(1)/m/n/12.045 模 型 的 思 路 非 常 简 单，|  用 当 前 单 词 $\OML/ztmcm/m/
+it/12.045 w[]$ \EU1/AdobeSongStd(1)/m/n/12.045 前 后 窗 口 的 词 语 去 预 估 当 前 词 $\OML/
+ztmcm/m/it/12.045 p\OT1/ztmcm/m/n/12.045 (\OML/ztmcm/m/it/12.045 w[] \OMS/ztmcm
+/m/n/12.045 j \OML/ztmcm/m/it/12.045 w[]; [] w[]\OT1/ztmcm/m/n/12.045 )$\EU1/Ad
+obeSongStd(1)/m/n/12.045 ，|
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[26]
+File: ./graph/skip-gram.png Graphic file (type QTm)
+ <use  "./graph/skip-gram.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[27]
+Underfull \vbox (badness 6876) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[29] [30
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[31]
+File: ./graph/LongTail.png Graphic file (type QTm)
+ <use  "./graph/LongTail.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[32]
+File: ./graph/Sample.png Graphic file (type QTm)
+ <use  "./graph/Sample.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[36]
+File: ./graph/Dnn.png Graphic file (type QTm)
+ <use  "./graph/Dnn.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[37]
+Underfull \vbox (badness 3514) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[38]
+File: ./graph/zuji1.png Graphic file (type QTm)
+ <use  "./graph/zuji1.png" >
+File: ./graph/zuji2.png Graphic file (type QTm)
+ <use  "./graph/zuji2.png" >
+File: ./graph/TimeDelta.png Graphic file (type QTm)
+
+<use  "./graph/TimeDelta.png" >
+
+Package natbib Warning: Citation `BSTcontrol' undefined on input line 537.
 
 (./ch_concln.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2163,7 +2657,7 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[6]))
+[39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2171,11 +2665,23 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[7] (./app_lhospital.tex [8
+[40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
 
-]
+[41]))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[42] (./app_lhospital.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 12.
@@ -2206,7 +2712,11 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[9] [10
+[43
+
+
+
+] [44
 
 
 ] (./ackgmt.tex) (./pubs.tex
@@ -2217,14 +2727,14 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[11
+[45
 
 
 
 
 
 
-] [12
+] [46
 
 
 ] (./jrnl.bbl) (./conf.bbl) (./patent.bbl))
@@ -2235,7 +2745,7 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[13
+[47
 
 
 
@@ -2255,12 +2765,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 32715 strings out of 493706
- 609474 string characters out of 6145770
- 706848 words of memory out of 5000000
- 35565 multiletter control sequences out of 15000+600000
- 61650 words of font info for 219 fonts, out of 8000000 for 9000
+ 32934 strings out of 493706
+ 615907 string characters out of 6145770
+ 707964 words of memory out of 5000000
+ 35763 multiletter control sequences out of 15000+600000
+ 61706 words of font info for 226 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 60i,16n,94p,10447b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,94p,10447b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bare_thesis.pdf (25 pages).
+Output written on bare_thesis.pdf (59 pages).
