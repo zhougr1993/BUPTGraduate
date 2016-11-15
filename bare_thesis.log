@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.7.6)  15 NOV 2016 14:36
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.7.6)  15 NOV 2016 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2489,13 +2489,37 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
  []
 
 [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[28]
 File: ./graph/cbow.png Graphic file (type QTm)
  <use  "./graph/cbow.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (33.9418pt too wide) in paragraph at lines 353--354
+Overfull \hbox (33.9418pt too wide) in paragraph at lines 384--385
 []\EU1/AdobeSongStd(1)/m/n/12.045 模 型 的 思 路 非 常 简 单，|  用 当 前 单 词 $\OML/ztmcm/m/
 it/12.045 w[]$ \EU1/AdobeSongStd(1)/m/n/12.045 前 后 窗 口 的 词 语 去 预 估 当 前 词 $\OML/
 ztmcm/m/it/12.045 p\OT1/ztmcm/m/n/12.045 (\OML/ztmcm/m/it/12.045 w[] \OMS/ztmcm
@@ -2511,7 +2535,7 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[26]
+[29]
 File: ./graph/skip-gram.png Graphic file (type QTm)
  <use  "./graph/skip-gram.png" >
 
@@ -2525,7 +2549,7 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[27]
+[30]
 Underfull \vbox (badness 6876) has occurred while \output is active []
 
 
@@ -2536,7 +2560,7 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[28]
+[31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2544,18 +2568,18 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[29] [30
+[32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[33
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (2.0075pt too wide) has occurred while \output is active
-[] 
- []
-
-[31]
 File: ./graph/LongTail.png Graphic file (type QTm)
  <use  "./graph/LongTail.png" >
 
@@ -2569,32 +2593,13 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[32]
+[34]
 File: ./graph/Sample.png Graphic file (type QTm)
  <use  "./graph/Sample.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (2.0075pt too wide) has occurred while \output is active
-[] 
- []
-
-[33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (2.0075pt too wide) has occurred while \output is active
-[] 
- []
-
-[34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2614,6 +2619,25 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
  []
 
 [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[38]
 File: ./graph/Dnn.png Graphic file (type QTm)
  <use  "./graph/Dnn.png" >
 
@@ -2627,37 +2651,10 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[37]
+[39]
 Underfull \vbox (badness 3514) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (2.0075pt too wide) has occurred while \output is active
-[] 
- []
-
-[38]
-File: ./graph/zuji1.png Graphic file (type QTm)
- <use  "./graph/zuji1.png" >
-File: ./graph/zuji2.png Graphic file (type QTm)
- <use  "./graph/zuji2.png" >
-File: ./graph/TimeDelta.png Graphic file (type QTm)
-
-<use  "./graph/TimeDelta.png" >
-
-Package natbib Warning: Citation `BSTcontrol' undefined on input line 537.
-
-(./ch_concln.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (2.0075pt too wide) has occurred while \output is active
-[] 
- []
-
-[39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2673,7 +2670,14 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[41]))
+[41]
+File: ./graph/zuji1.png Graphic file (type QTm)
+ <use  "./graph/zuji1.png" >
+File: ./graph/zuji2.png Graphic file (type QTm)
+ <use  "./graph/zuji2.png" >
+File: ./graph/TimeDelta.png Graphic file (type QTm)
+
+<use  "./graph/TimeDelta.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2681,7 +2685,49 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[42] (./app_lhospital.tex
+[42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[43]
+
+Package natbib Warning: Citation `BSTcontrol' undefined on input line 608.
+
+(./ch_concln.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[45]
+Underfull \hbox (badness 1924) in paragraph at lines 229--234
+[]\EU1/TimesNewRoman(0)/m/n/10.53937 Grover A, Leskovec J. node2vec: Scalable F
+eature Learning for Networks[A]. 2016. cite
+ []
+
+))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (2.0075pt too wide) has occurred while \output is active
+[] 
+ []
+
+[46] (./app_lhospital.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 12.
@@ -2712,11 +2758,11 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[43
+[47
 
 
 
-] [44
+] [48
 
 
 ] (./ackgmt.tex) (./pubs.tex
@@ -2727,14 +2773,14 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[45
+[49
 
 
 
 
 
 
-] [46
+] [50
 
 
 ] (./jrnl.bbl) (./conf.bbl) (./patent.bbl))
@@ -2745,7 +2791,7 @@ Overfull \hbox (2.0075pt too wide) has occurred while \output is active
 [] 
  []
 
-[47
+[51
 
 
 
@@ -2765,12 +2811,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 32934 strings out of 493706
- 615907 string characters out of 6145770
- 707964 words of memory out of 5000000
- 35763 multiletter control sequences out of 15000+600000
+ 33023 strings out of 493706
+ 618005 string characters out of 6145770
+ 708213 words of memory out of 5000000
+ 35852 multiletter control sequences out of 15000+600000
  61706 words of font info for 226 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  60i,18n,94p,10447b,701s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bare_thesis.pdf (59 pages).
+Output written on bare_thesis.pdf (63 pages).

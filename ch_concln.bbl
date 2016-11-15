@@ -69,6 +69,84 @@ Multilevel Compression of Random Walks on Networks Reveals Hierarchical
   Organization in Large Integrated Systems[J].
 2011, 6(4): e18209.
 
+\bibitem{rec1}
+.
+
+\bibitem{rec2}
+Encyclopedia of Machine Learning[M].
+Springer, 2010.
+
+\bibitem{rec3}
+Doucet A, Ahonen-Myka H.
+Naïve clustering of a large {XML} document collection[A].
+~//~INitiative for the Evaluation of {XML} Retrieval (INEX). Proceedings of the
+  First INEX Workshop. Dagstuhl, Germany, December 8-11, 2002[C].
+Sophia Antipolis, France: ERCIM, 2002: 81--87.
+
+\bibitem{rec4}
+Mooney R~J, Roy L.
+Content-based book recommending using learning for text categorization.[A].
+~//~ACM DL[C].
+2000: 195--204.
+
+\bibitem{rec5}
+Herlocker J, Konstan J, Terveen L, et~al.
+{Evaluating collaborative filtering recommender systems}[J].
+2004, 22(1): 5--53.
+
+\bibitem{rec6}
+Breese J~S, Heckerman D, Kadie C.
+Empirical Analysis of Predictive Algorithms for Collaborative Filtering[A].
+1998.
+
+\bibitem{rec11}
+Koren Y.
+Factor in the neighbors: Scalable and accurate collaborative filtering[J].
+2010, 4(1).
+
+\bibitem{rec7}
+Lee S, Yang J, Park S~Y.
+Discovery of Hidden Similarity on Collaborative Filtering to Overcome Sparsity
+  Problem.[A].
+~//~Discovery Science[C].
+Springer, 2004: 396--402.
+
+\bibitem{rec8}
+Brusilovsky P, Maybury M.
+From Adaptive Hypermedia to the Adaptive Web[J].
+2002, 45(5): 31--33.
+
+\bibitem{rec9}
+Rajaraman A, Leskovec J, Ullman J~D.
+2014.
+
+\bibitem{rec12}
+Smyth B, Cotter P.
+{PTV: Intelligent Personalised TV Guides.}[A].
+~//~{Proceedings of the 12th Conference on Innovative Applications of
+  Artificial Intelligence. (IAAI-2000)}[C].
+AAAI Press, 2000.
+
+\bibitem{rec13}
+Claypool M, Gokhale A, Miranda T, et~al.
+Combining content-based and collaborative filters in an online newspaper[A].
+~//~Proceedings of ACM SIGIR Workshop on Recommender Systems[C].
+1999.
+
+\bibitem{rec14}
+Melville P, Mooney R~J, Nagarajan R.
+Content-Boosted Collaborative Filtering for Improved Recommendations.[A].
+~//~AAAI/IAAI[C].
+AAAI Press / The MIT Press, 2002: 187--192.
+
+\bibitem{rec15}
+Popescul A, Ungar L, Pennock D, et~al.
+Probabilistic models for unified collaborative and content-based recommendation
+  in sparse-data environments[A].
+~//~Proceedings of the Seventeenth Conference on Uncertainty in Artificial
+  Intelligence[C].
+2001: 437--444.
+
 \bibitem{BengioDV00}
 Bengio Y, Ducharme R, Vincent P.
 A Neural Probabilistic Language Model.[A].
@@ -146,5 +224,12 @@ Yuan J, Gao F, Ho~Q, et~al.
 LightLDA: Big Topic Models on Modest Computer Clusters.[A].
 ~//~WWW[C].
 ACM, 2015: 1351--1361.
+
+\bibitem{node2vec}
+Grover A, Leskovec J.
+node2vec: Scalable Feature Learning for Networks[A].
+2016.
+cite arxiv:1607.00653Comment: In Proceedings of the 22nd ACM SIGKDD
+  International Conference on Knowledge Discovery and Data Mining, 2016.
 
 \end{thebibliography}

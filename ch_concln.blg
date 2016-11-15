@@ -13,11 +13,21 @@ I was expecting a `,' or a `}'---line 508 of file bare_thesis.bib
  :   added-at = {2016-04-11T00:00:00.000+0200},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 684 of file bare_thesis.bib
+Warning--entry type for "rec1" isn't style-file defined
+--line 696 of file bare_thesis.bib
+I was expecting a `,' or a `}'---line 920 of file bare_thesis.bib
  :   
  :   CTLswitch_chs_punc = "no",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+A bad cross reference---entry "rec1"
+refers to entry "reference/rsh/2011", which doesn't exist
+A bad cross reference---entry "rec3"
+refers to entry "inex03", which doesn't exist
+A bad cross reference---entry "rec7"
+refers to entry "conf/dis/2004", which doesn't exist
+A bad cross reference---entry "rec14"
+refers to entry "conf/aaai/2002", which doesn't exist
 A bad cross reference---entry "BengioDV00"
 refers to entry "conf/nips/2000", which doesn't exist
 A bad cross reference---entry "CollobertW08"
@@ -33,6 +43,10 @@ Warning--I didn't find a database entry for "conf/icml/2008"
 Warning--I didn't find a database entry for "Brusilovsky2007"
 Warning--I didn't find a database entry for "conf/aaim/2009"
 Warning--I didn't find a database entry for "conf/www/2015"
+Warning--I didn't find a database entry for "reference/rsh/2011"
+Warning--I didn't find a database entry for "inex03"
+Warning--I didn't find a database entry for "conf/dis/2004"
+Warning--I didn't find a database entry for "conf/aaai/2002"
 -- BUPTGraduateThesis.bst version 4.0 (2015/01/02) by Xianling Wang.
 -- https://gitcafe.com/rioxwang/BUPTGraduateThesis
 -- See the "buptgraduatethesis.pdf" manual for usage information.
@@ -59,6 +73,27 @@ Warning--booktitle is empty in complex3
 Warning--number is empty in complex3
 Warning--pages is empty in complex3
 Warning--booktitle is empty in HME
+Warning--author is empty in rec2
+Warning--address is empty in rec2
+Warning--address is empty in rec4
+Warning--publisher is empty in rec4
+Warning--booktitle is empty in rec5
+Warning--booktitle is empty in rec6
+Warning--address is empty in rec6
+Warning--publisher is empty in rec6
+Warning--booktitle is empty in rec11
+Warning--pages is empty in rec11
+Warning--address is empty in rec7
+Warning--booktitle is empty in rec8
+Warning--booktitle is empty in rec9
+Warning--address is empty in rec9
+Warning--publisher is empty in rec9
+Warning--address is empty in rec12
+Warning--address is empty in rec13
+Warning--publisher is empty in rec13
+Warning--address is empty in rec14
+Warning--address is empty in rec15
+Warning--publisher is empty in rec15
 Warning--address is empty in BengioDV00
 Warning--address is empty in CollobertW08
 Warning--address is empty in mikolov2013distributed
@@ -85,48 +120,51 @@ Warning--publisher is empty in shillingattacks
 Warning--author is empty in Longtail
 Warning--address is empty in PLDA
 Warning--address is empty in lightLDA
+Warning--booktitle is empty in node2vec
+Warning--address is empty in node2vec
+Warning--publisher is empty in node2vec
 ** BUPTGraduateThesis BST control entry"BSTcontrol" detected. **
 
 Done.
-You've used 27 entries,
+You've used 42 entries,
             2106 wiz_defined-function locations,
-            704 strings with 8507 characters,
-and the built_in function-call counts, 10691 in all, are:
-= -- 1054
-> -- 208
+            790 strings with 11195 characters,
+and the built_in function-call counts, 16498 in all, are:
+= -- 1621
+> -- 328
 < -- 1
-+ -- 88
++ -- 138
 - -- 1
-* -- 1097
-:= -- 1198
+* -- 1679
+:= -- 1847
 add.period$ -- 0
-call.type$ -- 27
+call.type$ -- 42
 change.case$ -- 0
 chr.to.int$ -- 5
-cite$ -- 76
-duplicate$ -- 656
-empty$ -- 1281
-format.name$ -- 59
-if$ -- 2547
+cite$ -- 115
+duplicate$ -- 1052
+empty$ -- 1984
+format.name$ -- 94
+if$ -- 3938
 int.to.chr$ -- 0
-int.to.str$ -- 27
+int.to.str$ -- 42
 missing$ -- 0
-newline$ -- 144
-num.names$ -- 24
-pop$ -- 208
+newline$ -- 223
+num.names$ -- 37
+pop$ -- 323
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 43
+skip$ -- 61
 stack$ -- 0
-substring$ -- 1466
-swap$ -- 88
+substring$ -- 2234
+swap$ -- 136
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 6
 type$ -- 0
-warning$ -- 49
-while$ -- 109
-width$ -- 29
-write$ -- 194
-(There were 7 error messages)
+warning$ -- 73
+while$ -- 166
+width$ -- 44
+write$ -- 302
+(There were 11 error messages)
